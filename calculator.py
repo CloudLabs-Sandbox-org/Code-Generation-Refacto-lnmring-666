@@ -11,6 +11,7 @@ def calculator():
     print("6. Logaritmo (base 10)")
     print("7. Ingresar operación en formato matemático")
 
+
     try:
         choice = int(input("Selecciona una opción (1/2/3/4/5/6/7): "))
         if choice not in [1, 2, 3, 4, 5, 6, 7]:
